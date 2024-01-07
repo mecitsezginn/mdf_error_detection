@@ -1,0 +1,34 @@
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.select-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imgSpan{
+    margin: 5px;
+}
+
+.imgBorder{
+    border: 3px solid #b91010;
+}
+
+.imgSize {
+    width: 35%; /* Resmin genişliği ekran genişliğine uyumlu olacak şekilde ayarlandı */
+    height: auto; /* Oranlar korunarak resmin boyutları otomatik olarak ayarlanacak */
+  }
+
+@media (max-width: 600px) {
+    .imgSize {
+        width: 72%;
+        height: auto;
+    }
+}
